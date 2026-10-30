@@ -1,0 +1,14 @@
+
+### Add employee
+POST http://localhost:8080/employees
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Rahul",
+  "department": "IT",
+  "salary": 50000
+}
+
+### Get all employees
+GET http://localhost:8080/employees
